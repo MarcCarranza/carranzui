@@ -1,0 +1,6 @@
+node_modules
+dist
+.vscode
+vitest.config.ts
+vitest.shims.d.ts
+package-lock.json

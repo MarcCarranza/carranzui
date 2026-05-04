@@ -1,0 +1,11 @@
+.button {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  padding: 0.5rem 1rem;
+}
+
+.button:disabled {
+  color: gray;
+  border: 3px solid gray;
+}
