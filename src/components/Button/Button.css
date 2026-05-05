@@ -1,11 +1,69 @@
-.button {
-  background-color: transparent;
-  color: white;
-  border: 3px solid white;
-  padding: 0.5rem 1rem;
+@font-face {
+  font-family: Pixelated;
+  src: url(/assets/fonts/BlockCraft.otf) format("opentype");
 }
 
+.button {
+  font-family: "Pixelated";
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 0 2.5rem 1.4rem 0.5rem;
+  line-height: 0.4;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  max-width: 300px;
+}
+
+/* Hover */
+.button:hover {
+  background-color: white;
+  color: black;
+  mix-blend-mode: lighten;
+}
+
+/* .button:hover::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: url(/assets/icons/.svg);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+/* Selected */
+
+.selected {
+  /* Add icon or something to show it's selected */
+  color: white;
+}
+
+/* .selected::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: url(/assets/icons/terminal-square-solid-rounded.svg);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+/* Dimmed */
+.dimmed {
+  opacity: 0.5;
+}
+
+.dimmed:hover {
+  opacity: 1;
+}
+
+/* Disabled */
 .button:disabled {
+  /* TODO: Add lock icon or something */
   color: gray;
-  border: 3px solid gray;
+  border: 2px solid gray;
 }

@@ -8,13 +8,25 @@ export default {
 
 const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  text: "Primary Button",
+export const Default = Template.bind({});
+Default.args = {
+  text: "Default Button",
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Selected = Template.bind({});
+Selected.args = {
+  text: "Selected Button",
+  isSelected: true,
+};
+
+export const Dimmed = Template.bind({});
+Dimmed.args = {
+  text: "Dimmed Button",
+  isDimmed: true,
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
   text: "Disabled button",
   disabled: true,
 };
