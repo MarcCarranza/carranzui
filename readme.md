@@ -1,6 +1,6 @@
 # CarranzUI
 
-This is a 100% hand-crafted component library for a personal project in the works, it is not intended as a public library but more as a "here is a preview of my coding abilities".
+This is a WIP 100% hand-crafted component library for a personal project in the works, it is not intended as a public library but more as a "here is a preview of my coding abilities".
 
 ## Stack (WIP)
 
